@@ -200,18 +200,11 @@
 }
 
 @media (max-width: 500px) {
-  html {
-    font-size: 50;
+  .s-hero .container .title h1 {
+    font-size: 4.5rem;
   }
 
-  body {
-    background: url(../img/gestao-de-trafego-mobile.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
-  h2 {
-    font-size: 4.8rem;
+  .s-about .container .my-picture {
+    width: 90%;
   }
 }
