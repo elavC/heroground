@@ -123,6 +123,31 @@ header .container nav .menu-social img:hover {
   gap: 24px;
 }
 
+.s-hero .container .title h1 span {
+  font-size: 32px;
+}
+
+.s-hero .container .title h1 span {
+  display: block;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden; 
+  width: 25ch;
+  animation: typing .5s step-end infinite, write 3s steps(15 , end) normal;
+}
+
+@keyframes typing {
+    50% {
+      border-right-color: transparent;
+    }
+}
+
+@keyframes write {
+  0% {
+    width: 0;
+  }
+}
+
 .s-hero .container .title h1 {
   font-family: "Inter";
   font-weight: 700;

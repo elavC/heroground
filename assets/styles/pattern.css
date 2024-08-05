@@ -37,21 +37,6 @@ h2 span {
   color: var(--primary-color);
 }
 
-.btn-primary {
-  border-radius: 12px;
-  font-weight: 700;
-  line-height: 2.4rem;
-  font-size: 1.6rem;
-  background-color: var(--primary-color);
-  color: var(--black-color);
-  padding: 1rem 2.6rem;
-  transition: all 0.2s;
-}
-
-.btn-primary:hover {
-  background-color: var(--white-color);
-  transform: scale(1.04);
-}
 
 .btn-primary.empty {
   border: 2px solid var(--primary-color);
