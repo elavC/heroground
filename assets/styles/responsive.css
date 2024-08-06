@@ -70,10 +70,6 @@
   .s-cases .container .title-cases h2 {
     text-align: center;
   }
-  .s-cases .container .cases {
-    flex-direction: column;
-    gap: 4rem;
-  }
 
   .s-contact .container {
     flex-direction: column;
@@ -208,13 +204,27 @@
 }
 
 @media (max-width: 768px) {
+  section.s-cases .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section.s-cases .grid .wrapper {
+    margin-top: 48px;
+  }
+
+  section.s-cases .grid {
+    width: 90%;
+  }
+
+
 }
 
 @media (max-width: 624px) {
   .s-hero .container .title h1 span {
     font-size: 24px;
-    width: 22ch;
-    animation: typing .5s step-end infinite, write 3s steps(22 , end) normal;
+    width: 25ch;
+    animation: typing .5s step-end infinite, write 3s steps(25 , end) normal;
   }
   
   @keyframes typing {
