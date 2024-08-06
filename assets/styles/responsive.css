@@ -179,6 +179,24 @@
 }
 
 @media (max-width: 624px) {
+  .s-hero .container .title h1 span {
+    font-size: 24px;
+    width: 22ch;
+    animation: typing .5s step-end infinite, write 3s steps(22 , end) normal;
+  }
+  
+  @keyframes typing {
+      50% {
+        border-right-color: transparent;
+      }
+  }
+  
+  @keyframes write {
+    0% {
+      width: 0;
+    }
+  }
+
   .s-hero {
     background-position: center center;
   }
