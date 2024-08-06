@@ -15,7 +15,6 @@
 
   div.s-modal {
     width: 80%;
-    height: 100vh;
   }
 }
 @media (max-width: 1133px) {
@@ -36,7 +35,6 @@
 
   div.s-modal {
     width: 80%;
-    height: 130vh;
   }
 }
 @media (max-width: 1000px) {
@@ -182,7 +180,6 @@
 
   div.s-modal {
     width: 90%;
-    height: 150vh;
   }
 
   div.s-modal .image {
@@ -216,8 +213,6 @@
   section.s-cases .grid {
     width: 90%;
   }
-
-
 }
 
 @media (max-width: 624px) {
@@ -258,13 +253,17 @@
     text-align: center;
   }
 
+  div.s-modal {
+    padding: 0;
+  }
+
   div.s-modal .modal .about .wrapper {
     display: flex;
     flex-direction: column;
   }
 
   div.s-modal .modal .about .wrapper .card-modal {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 24px;
   }
